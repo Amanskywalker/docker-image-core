@@ -26,6 +26,7 @@ apt-get install -y --no-install-recommends runit cron
 # install cron daemon.
 mkdir -p /etc/service/cron
 mkdir -p /var/log/cron
+mkdir -p /etc/corntabs
 chmod 600 /etc/crontabs
 cp /build/runit/cron /etc/service/cron/run
 cp /build/config/cron_log_config /var/log/cron/config
