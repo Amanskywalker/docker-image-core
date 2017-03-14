@@ -42,3 +42,6 @@ rm -f /etc/cron.weekly/fstrim
 
 # Often used tools.
 apt-get install -y --no-install-recommends curl less nano psmisc wget
+
+# cleaning up
+rm -rf /var/lib/apt/lists/*
