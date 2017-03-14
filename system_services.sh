@@ -23,7 +23,7 @@ echo ". /etc/container_environment.sh" >> /root/.bashrc
 # install runit.
 apt-get install -y --no-install-recommends runit cron
 
-# install cron daemon.
+# config cron daemon.
 mkdir -p /etc/service/cron
 mkdir -p /var/log/cron
 mkdir -p /etc/corntabs
@@ -44,4 +44,5 @@ rm -f /etc/cron.weekly/fstrim
 apt-get install -y --no-install-recommends curl less nano psmisc wget
 
 # cleaning up
+apt-get clean
 rm -rf /var/lib/apt/lists/*
