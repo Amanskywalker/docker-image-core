@@ -5,5 +5,5 @@ ADD . /build
 RUN chmod 750 /build/system_services.sh
 RUN /build/system_services.sh
 
-# startup 
+# startup
 CMD ["/sbin/my_init"]
