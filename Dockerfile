@@ -1,4 +1,5 @@
 FROM ubuntu:16.04
+MAINTAINER amanskywalker (mail@amanskywalker.tk)
 
 # copy all shell scripts and built the image
 ADD . /build
