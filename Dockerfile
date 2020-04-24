@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM ubuntu:20.04
 MAINTAINER amanskywalker (mail@amanskywalker.xyz)
 
 # copy all shell scripts and built the image
