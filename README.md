@@ -1,3 +1,3 @@
 # docker-image-core
 
-A simple base image built on the top of ubuntu 18.04 to work as the base image for the other images which does the complex functionaliteis.
+A simple base image built on the top of ubuntu 20.04 to work as the base image for the other images which does the complex functionaliteis.
