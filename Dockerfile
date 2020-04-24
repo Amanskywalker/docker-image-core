@@ -1,5 +1,5 @@
 FROM ubuntu:18.04
-MAINTAINER amanskywalker (mail@amanskywalker.tk)
+MAINTAINER amanskywalker (mail@amanskywalker.xyz)
 
 # copy all shell scripts and built the image
 ADD . /build
